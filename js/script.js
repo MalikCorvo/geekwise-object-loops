@@ -12,8 +12,6 @@ var book = {
 	}
 }
 
-// console.log the value of ceo
-
 
 
 
@@ -39,35 +37,26 @@ var stats = {
      }
  };
 
-// console.log mapi value
 
 
 
 
-
-//////////////////////////////////Object loops///////////////////////////////////
-
-
-
-// for of Loop
+// for of Loop///////////////////////////////////////////////////////////
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/statements/for...of
-// using for of loop you'll need to now Object.keys()
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
-
-var obj = { 
-	first: "John", 
-	middle: "Smith", 
-	last: "Doe"
-};
 
 
 
 
 
-// for in Loop
+
+
+
+
+// for in ////////////////////////////////////////////////////////////
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/statements/for...in
+
 var jeep = {
-	image: 'http://bit.ly/2ys64bD',
+    image: 'http://bit.ly/2ys64bD',
     make: 'jeep',
     model: 'wrangler',
     year: 2014,
@@ -77,17 +66,47 @@ var jeep = {
 
 
 
-// for in Loop with nested Object
+
+
+// for in VS for of ///////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+// for of Loop on objects ////////////////////////////////////////////////
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/statements/for...of
+
+// using for of loop you'll need to now Object.keys()
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+
+
+
+
+
+
+
+
+
+
+// for in Loop with nested Object //////////////////////////////////////
 var book = { 
-	author: {
-		firstAuthor: "Ryeker",
-		secondAuthor: "David"
-	},
-	editor: {
-		companyName: "penguin",
-		location: "Westminster, London",
-		ceo: "Peter Field"
-	}
+    author: {
+        firstAuthor: "Ryeker",
+        secondAuthor: "David"
+    },
+    editor: {
+        companyName: "penguin",
+        location: "Westminster, London",
+        ceo: "Peter Field"
+    }
 }
+
+
+
 
 
